@@ -20,5 +20,15 @@
         <h1>Service Unavailable</h1>
         <p>The server is currently unable to handle the request. Try again later.</p>
 </div>
+
+jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('#preloader').fadeOut('slow', function () {
+            });
+        }, 5000); // set the time here
+    });  
+});
+	
 </body>
 </html>
