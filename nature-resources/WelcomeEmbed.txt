@@ -5,7 +5,7 @@
     "description": "Be sure to familiarise yourself with our <#897209322487021588> channel, which is regularly updated with our general rules, role hierarchy, as well as other various important notices.",
     "color": 3066993,
     "footer": {
-      "icon_url": "https://cdn.discordapp.com/attachments/690225153375993880/1282415325488611449/Watermark4.png",
+      "icon_url": "http://notharry.co.uk/nature-resources/transparent.png",
       "text": "This user was invited by ${invite.inviter.name} with code ${invite.code}."
     }
   }
