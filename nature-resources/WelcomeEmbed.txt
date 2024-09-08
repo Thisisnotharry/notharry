@@ -6,7 +6,7 @@
     "color": 3066993,
     "footer": {
       "icon_url": "http://notharry.co.uk/nature-resources/transparent.png",
-      "text": "This user was invited by ${invite.inviter.name} with code ${invite.code}."
+      "text": "Need help with anything? Drop me a DM!"
     }
   }
 }
