@@ -48,7 +48,7 @@ main {
 /* Iframe scaling wrapper */
 .iframe-wrapper {
   /* Adjust the scale factor as needed, e.g., 0.75 to shrink to 75% */
-  transform: scale(0.85);
+  transform: scale(1);
   transform-origin: top left;
   /* Because we're scaling down, we need to counter the width to keep it full-width */
   width: calc(100% / 0.85);
@@ -58,6 +58,6 @@ main {
 /* Remove border from iframe and let it fill the wrapper */
 .iframe-wrapper iframe {
   width: 100%;
-  height: 800px; /* Adjust height if necessary */
+  height: 500px; /* Adjust height if necessary */
   border: none;
 }
