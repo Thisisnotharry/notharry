@@ -1,42 +1,63 @@
-/* Reset some default styles */
+/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Body styles */
+/* Basic body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* Header styles */
+/* Header styling */
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
-/* Main content styles */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* Main content styling */
 main {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-/* iframe container styles */
+/* Iframe container */
 .iframe-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
 }
 
-/* Make iframe responsive */
-iframe {
-    width: 100%;
-    height: 800px;
-    border: none;
+/* Iframe scaling wrapper */
+.iframe-wrapper {
+  /* Adjust the scale factor as needed, e.g., 0.75 to shrink to 75% */
+  transform: scale(0.85);
+  transform-origin: top left;
+  /* Because we're scaling down, we need to counter the width to keep it full-width */
+  width: calc(100% / 0.85);
+  border: 1px solid #ddd;
+}
+
+/* Remove border from iframe and let it fill the wrapper */
+.iframe-wrapper iframe {
+  width: 100%;
+  height: 800px; /* Adjust height if necessary */
+  border: none;
 }
